@@ -1,0 +1,17 @@
+{
+  "name": "five-move",
+  "main": "./lib/five-move",
+  "version": "0.0.0",
+  "description": "move (or select) 5 lines.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": ["five-move:previousFive", "five-move:previousFiveSelect", "five-move:nextFive", "five-move:nextFiveSelect"]
+  },
+  "repository": "https://github.com/tbpgr/five-move",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

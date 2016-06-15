@@ -1,0 +1,50 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle five-move:previousFive",
+        "command": "five-move:previousFive"
+      },
+      {
+        "label": "Toggle five-move:previousFiveSelect",
+        "command": "five-move:previousFiveSelect"
+      },
+      {
+        "label": "Toggle five-move:nextFive",
+        "command": "five-move:nextFive"
+      },
+      {
+        "label": "Toggle five-move:nextFiveSelect",
+        "command": "five-move:nextFiveSelect"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "five-move",
+          "submenu": [
+            {
+              "label": "move 5 previous",
+              "command": "five-move:previousFive"
+            },
+            {
+              "label": "move 5 previous select",
+              "command": "five-move:previousFiveSelect"
+            },
+            {
+              "label": "move 5 next",
+              "command": "five-move:nextFive"
+            },
+            {
+              "label": "move 5 next select",
+              "command": "five-move:nextFiveSelect"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
