@@ -2,19 +2,19 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle five-move:previousFive",
+        "label": "five-move:previousFive",
         "command": "five-move:previousFive"
       },
       {
-        "label": "Toggle five-move:previousFiveSelect",
+        "label": "five-move:previousFiveSelect",
         "command": "five-move:previousFiveSelect"
       },
       {
-        "label": "Toggle five-move:nextFive",
+        "label": "five-move:nextFive",
         "command": "five-move:nextFive"
       },
       {
-        "label": "Toggle five-move:nextFiveSelect",
+        "label": "five-move:nextFiveSelect",
         "command": "five-move:nextFiveSelect"
       }
     ]
