@@ -1,7 +1,7 @@
 {
   "name": "five-move",
   "main": "./lib/five-move",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "move (or select) 5 lines.",
   "keywords": [],
   "activationCommands": {
